@@ -1,0 +1,2 @@
+import { Component } from '@angular/core'; import { RouterLink,RouterOutlet } from '@angular/router';
+@Component({selector:'app-raiz',standalone:true,imports:[RouterLink,RouterOutlet],template:`<nav class="navbar navbar-expand bg-primary navbar-dark px-3"><a class="navbar-brand" routerLink="/compras">Comercial TI</a><div class="navbar-nav"><a class="nav-link" routerLink="/compras">Compras</a><a class="nav-link" routerLink="/ventas">Ventas</a><a class="nav-link" routerLink="/kardex">Kardex</a></div></nav><router-outlet/>`}) export class AppComponente {}
